@@ -29,4 +29,5 @@ Note
 
 
 Other registers
+
 rip => stores address of next instruction to be execute
