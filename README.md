@@ -12,7 +12,8 @@ ld -o filename filename.o
 chmod u+x filename
 ```
 
-Note
+Notes
+Assembly language consists of commands, which are directly mapped into machine code
 
 ## Registers
 
