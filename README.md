@@ -19,6 +19,8 @@ Assembly language consists of commands, which are directly mapped into machine c
 ## Registers
 
 8 - General purpose register
+
+    name => alias
 1. r0 => rax
 2. r1 => rcx
 3. r2 => rdx 
