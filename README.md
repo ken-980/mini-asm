@@ -16,9 +16,17 @@ Note
 
 ## Registers
 
-8 - General purpose registers
-r0  r1  r2  r3  r4  r5  r6  r7
-rax rcx rdx rbx rsp rbp rsi rdi
+8 - General purpose register
+1. r1 => rax
+2. r2 => rcx
+3. r3 => rdx 
+4. r4 => rbx
+5. r5 => rsp
+6. r6 => rbp
+7. r7 => rsi
+8. r8 => rdi
+
+
 
 Other registers
-rip => stores address of next instruction to be executed
+rip => stores address of next instruction to be execute
