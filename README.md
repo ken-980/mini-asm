@@ -13,6 +13,7 @@ chmod u+x filename
 ```
 
 Notes
+
 Assembly language consists of commands, which are directly mapped into machine code
 
 ## Registers
