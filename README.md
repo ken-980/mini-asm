@@ -30,9 +30,13 @@ Assembly language consists of commands, which are directly mapped into machine c
 7. r6 => rsi
 8. r7 -> rdi
 
-
-
-
 Other registers
 
-rip => stores address of next instruction to be execute
+rip => stores address of next instruction to be executed
+
+
+## Addressing
+
+mov rsi, rax => copies memory rax into rsi
+mov rsi, [rax] => copies memory contents(8 sequential byes) starting at address, stored in rax, into rsi 
+
