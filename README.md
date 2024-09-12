@@ -37,6 +37,11 @@ rip => stores address of next instruction to be executed
 
 ## Addressing
 
-1. mov rsi, rax => copies memory rax into rsi
-2. mov rsi, [rax] => copies memory contents(8 sequential byes) starting at address, stored in rax, into rsi 
+1. mov rsi, rax => copies memory rax into rsi (immediate addressing)
+2. mov rsi, [rax] => copies memory contents,(8 sequential byes) starting at address, stored in rax, into rsi (relative addressing) 
 
+
+
+## Instructions
+1. lea reg, [address] => allows you to calclulate an address of a memory cell and store it somewhere
+2. call <address> => used to perform function calls
