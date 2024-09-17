@@ -37,50 +37,50 @@ rip => stores address of next instruction to be executed
 
 ## Addressing modes
 
-1. Immediate Addressing:
+1.  Immediate Addressing:
+    The operand is a constant value embedded in the instruction.
+    Example: mov rax, 42
 
-The operand is a constant value embedded in the instruction.
-Example: mov rax, 42
+2.  Register Addressing:
 
-2. Register Addressing:
+    The operand is stored in a register.
 
-The operand is stored in a register.
-Example: mov rbx, rax
+    Example: mov rbx, rax
 
-3. Direct Memory Addressing:
+3.  Direct Memory Addressing:
 
-The instruction contains the memory address of the operand.
-Example: mov rax, [0x1000]
+    The instruction contains the memory address of the operand.
+    Example: mov rax, [0x1000]
 
-4. Register Indirect Addressing:
+4.  Register Indirect Addressing:
 
-A register contains the memory address of the operand.
-Example: mov rax, [rbx]
+    A register contains the memory address of the operand.
+    Example: mov rax, [rbx]
 
-5. Base + Displacement Addressing:
+5.  Base + Displacement Addressing:
 
-Combines a base register with a constant offset.
-Example: mov rax, [rbx + 8]
+    Combines a base register with a constant offset.
+    Example: mov rax, [rbx + 8]
 
-6. Base + Index + Displacement Addressing:
+6.  Base + Index + Displacement Addressing:
 
-Uses a base register, an index register, and a constant offset.
-Example: mov rax, [rbx + rcx*4 + 8]
+    Uses a base register, an index register, and a constant offset.
+    Example: mov rax, [rbx + rcx*4 + 8]
 
-7. RIP-Relative Addressing:
+7.  RIP-Relative Addressing:
 
-Address is specified relative to the current instruction pointer.
-Example: mov rax, [rip + label]
+    Address is specified relative to the current instruction pointer.
+    Example: mov rax, [rip + label]
 
-8. Scale-Index-Base (SIB) Addressing:
+8.  Scale-Index-Base (SIB) Addressing:
 
-A complex form that can include scaling of an index register.
-Example: mov rax, [rsi + rdi*8]
+    A complex form that can include scaling of an index register.
+    Example: mov rax, [rsi + rdi*8]
 
-9. Stack Addressing:
+9.  Stack Addressing:
 
-Implicit addressing using stack pointer (RSP) for push/pop operations.
-Example: push rax or pop rbx
+    Implicit addressing using stack pointer (RSP) for push/pop operations.
+    Example: push rax or pop rbx
 
 ## Instructions
 
