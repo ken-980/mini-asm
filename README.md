@@ -1,6 +1,6 @@
 # mini asm
 
-Assembly mini docs and programs
+My asm docs and programs
 
 Using [nasm](https://www.nasm.us/docs.php) assembler
 
